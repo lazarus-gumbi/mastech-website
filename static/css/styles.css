@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.intro {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+
+    background-image: linear-gradient(50deg, rgba(45, 54, 145, 0.8) 35%, rgba(79, 162, 130, 0.95)), url("../images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+
+}
+
+.nav {
+
+    height: 5vh;
+    padding: .5rem 11.5rem;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    color: white;
+
+}
+
+.nav li {
+    padding: 0rem .3rem;
+    list-style: none;
+    color: white;
+
+}
+
+.nav a {
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+.nav a:hover {
+    cursor: pointer;
+    color: rgb(252, 165, 47)
+}
+
+/* Main Content/ hero content */
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 12rem;
+    height: 100vh;
+    color: #fff;
+
+}
+
+.intro-content h1 {
+    font-size: 110px;
+    font-family: 'Karla', sans-serif;
+}
+
+.slogan {
+    color: rgb(252, 165, 47);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inconsolata', monospace;
+}
+
+.intro-content h2 {
+    padding: 5rem 0rem;
+    color: rgb(252, 165, 47);
+    font-family: 'Karla', sans-serif;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.267);
+}
+
+
+/* about us section */
+
+.about-us {
+    padding: 5rem 12rem;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-us .heading {
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 132, 188);
+    padding: 3rem 0rem;
+}
+
+.about-us .tag {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 3rem;
+    color: rgb(252, 165, 47);
+}
+
+.about-us .about-text {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 3rem;
+    line-height: 2rem;
+    color: #333;
+}
+
+/* Partners Section */
+.partners {
+    background-color: #333;
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-heading {
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 132, 188);
+    padding-bottom: 1rem;
+}
+
+.p-tag {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 3rem;
+    color: rgb(252, 165, 47);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+}
+
+.grid-item {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Services */
+.services {
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 132, 188);
+    color: #fff;
+}
+
+.s-heading {
+    padding: 2rem;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.service-details {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 10px;
+}
+
+.service {
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.s-tag h2 {
+    max-width: 46ch;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 5px;
+    font-family: Karla, sans-serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+/* prodcuts */
+.products {
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    /* color: #fff; */
+}
+
+.pro-heading {
+
+    padding: 2rem;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 132, 188);
+
+}
+
+.pro-tag {
+
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 3rem;
+    color: rgb(252, 165, 47);
+
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.products-grid a {
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 132, 188);
+    border-bottom: 1px solid rgb(60, 132, 188);
+}
+
+/* contact us section */
+
+.contact-us {
+    background-color: #333;
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-heading {
+    padding: 2rem;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 132, 188);
+}
+
+.c-tag {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 3rem;
+    color: rgb(252, 165, 47);
+}
+
+.contact-form {
+    width: 60%
+}
+
+label {
+    padding: 1rem 0rem;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+}
+
+.input {
+    width: 100%;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 0px;
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    background-color: #333;
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    font-family: Karla, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.submit{
+    border-style: solid;
+    padding: 1rem 0rem;
+    border-width: 0px 0px 1px;
+    border-color: rgb(60, 132, 188);;
+    color: rgb(60, 132, 188);
+    background-color: #333;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
