@@ -28,7 +28,7 @@ html {
 
 }
 
-.nav {
+.navi {
 
     height: 5vh;
     padding: .5rem 11.5rem;
@@ -38,27 +38,53 @@ html {
     align-items: center;
 }
 
-.nav ul {
+.navi a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navi ul {
     display: flex;
     color: white;
 
 }
 
-.nav li {
+.navi li {
     padding: 0rem .3rem;
     list-style: none;
     color: white;
 
 }
 
-.nav a {
+.navi a {
     color: white;
     font-family: 'Inconsolata', monospace;
 }
 
-.nav a:hover {
+.navi a:hover {
     cursor: pointer;
     color: rgb(252, 165, 47)
+}
+
+.menu-icon {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #fff;
 }
 
 /* Main Content/ hero content */
@@ -317,23 +343,25 @@ textarea {
     font-family: Karla, sans-serif;
     color: #fff;
     font-size: 16px;
-    
+
 }
 
-.submit{
+.submit {
     border-style: solid;
     padding: 1rem 0rem;
     border-width: 0px 0px 1px;
-    border-color: rgb(60, 132, 188);;
+    border-color: rgb(60, 132, 188);
+    ;
     color: rgb(60, 132, 188);
     background-color: #333;
 }
 
-.submit:hover{
+.submit:hover {
     cursor: pointer;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
     outline: none;
 }
 
@@ -349,32 +377,33 @@ textarea:focus, input:focus{
     color: #fff;
 }
 
-.social-link a{
+.social-link a {
     color: white;
     margin-right: 15px;
 }
 
-.social-link{
+.social-link {
     display: flex;
-    
+
 }
 
-.copyright{
-    padding-top:10px ;
+.copyright {
+    padding-top: 10px;
     font-size: 10px;
 }
 
-.tel a{
+.tel a {
     border-style: solid;
     padding: 0.3rem 0rem;
     border-width: 0px 0px 1px;
-    border-color: rgb(60, 132, 188);;
+    border-color: rgb(60, 132, 188);
+    ;
     color: rgb(60, 132, 188);
 }
 
 /* products in depth page */
 
-.skypay{
+.skypay {
     padding: 5rem 12rem;
     height: auto;
     display: flex;
@@ -385,14 +414,14 @@ textarea:focus, input:focus{
     color: #fff;
 }
 
-.prod-heading{
+.prod-heading {
     padding: 1rem 0rem;
     font-size: 30px;
     font-family: 'Inconsolata', monospace;
     color: #fff;
 }
 
-.pro-det{
+.pro-det {
 
     padding: 20px;
     font-size: 1.1rem;
@@ -400,32 +429,32 @@ textarea:focus, input:focus{
 
 }
 
-.features{
+.features {
     display: grid;
     grid-template-columns: auto auto;
 
     padding: 20px;
 }
 
-.feature h4{
+.feature h4 {
     font-size: 1.3rem;
 }
 
-.feature{
+.feature {
     font-size: 1.1rem;
     font-family: 'Karla', sans-serif;
 }
 
-.features-heading{
+.features-heading {
     font-family: 'Karla', sans-serif;
 }
 
-.payment-methods{
+.payment-methods {
     font-family: 'Karla', sans-serif;
     padding: 20px;
 }
 
-.skypoint{
+.skypoint {
     padding: 5rem 12rem;
     height: auto;
     display: flex;
@@ -436,24 +465,24 @@ textarea:focus, input:focus{
     color: #333;
 }
 
-.skypoint-heading{
+.skypoint-heading {
     padding: 1rem 0rem;
     font-size: 30px;
     font-family: 'Inconsolata', monospace;
 }
 
-.skypoint-det  {
+.skypoint-det {
     padding: 20px;
     font-size: 1.1rem;
     font-family: 'Karla', sans-serif;
 }
 
-.skypoint-features-heading{
+.skypoint-features-heading {
     font-size: 1.3rem;
     font-family: 'Karla', sans-serif;
 }
 
-.skypoint-features{
+.skypoint-features {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 50px;
@@ -461,7 +490,7 @@ textarea:focus, input:focus{
     font-family: 'Karla', sans-serif;
 }
 
-.skyverify{
+.skyverify {
     padding: 5rem 12rem;
     height: auto;
     display: flex;
@@ -472,15 +501,15 @@ textarea:focus, input:focus{
     /* color: #333; */
 }
 
-.skyverify-heading{
+.skyverify-heading {
     padding: 1rem 0rem;
     font-size: 30px;
     font-family: 'Inconsolata', monospace;
     color: rgb(60, 132, 188);
-    
+
 }
 
-.skyverify-tag{
+.skyverify-tag {
     font-size: 2rem;
     font-weight: 400;
     font-family: 'Karla', sans-serif;
@@ -488,7 +517,7 @@ textarea:focus, input:focus{
     color: rgb(252, 165, 47);
 }
 
-.skyverify-det{
+.skyverify-det {
     padding: 20px;
     font-size: 1.1rem;
     font-family: 'Karla', sans-serif;
@@ -506,28 +535,171 @@ textarea:focus, input:focus{
     color: #fff;
 }
 
-.skysms-heading{
+.skysms-heading {
     padding: 1rem 0rem;
     font-size: 30px;
     font-family: 'Inconsolata', monospace;
     color: #fff;
 }
 
-.skysms-det{
+.skysms-det {
     padding: 20px;
     font-size: 1.1rem;
     font-family: 'Karla', sans-serif;
 }
 
-.skysms-features-heading{
+.skysms-features-heading {
     font-size: 1.3rem;
     font-family: 'Karla', sans-serif;
 }
 
-.skysms-features{
+.skysms-features {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 50px;
     padding: 20px;
     font-family: 'Karla', sans-serif;
 }
+
+@media(max-width:1024px) {
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem .5rem;
+        height: 100vh;
+        color: #fff;
+    
+    }
+    .intro{
+        height: 85vh;
+    }
+    .navi{
+        padding: .5rem .5rem;
+    }
+    .hamburger {
+      display: block;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 7vh;
+      gap: 0;
+      flex-direction: column;
+      background-color: #333;
+      width: 100%;
+      align-items: center;
+      transition: 0.3s;
+    }
+  
+    .nav-item {
+      margin: 16px 0;
+      text-align: center;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+
+    .intro-content h1{
+        font-size: 3rem;
+    }
+
+    .slogan{
+        font-size: 12px;
+    
+    }
+
+    .about-us{
+        padding: 2.5rem .5rem;
+    }
+
+    .about-us tag{
+        font-size: 1.2rem;
+    }
+
+    .partners{
+        padding: 2.5rem .5rem;
+    }
+
+    .p-tag{
+        font-size: 1.2rem;
+
+    }
+
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
+
+    .grid-container img{
+        width: 100px;
+    }
+
+    .services{
+        padding: 2.5rem .5rem;
+    }
+
+    .s-tag h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .service{
+        font-size: 1rem;
+    }
+
+    .products{
+        padding: 2.5rem .5rem;
+    }
+
+    .pro-tag{
+        font-size: 1.2rem;
+    }
+
+    .products-grid {
+        grid-template-columns: auto auto;
+    }
+
+    .products-grid img{
+        width: 100px;
+    }
+
+    .contact-us{
+        padding: 2.5rem .5rem;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .links{
+        padding: .5rem .5rem;
+        display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    }
+
+    .tel{
+        font-size: 10px;
+    }
+
+    .address-block{
+        font-size: 10px;
+    }
+
+    .skypay ,.skypoint,.skysms,.skyverify{
+        padding: 2.5rem .5rem;
+    }
+  }
