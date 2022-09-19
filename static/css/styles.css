@@ -336,3 +336,30 @@ textarea {
 textarea:focus, input:focus{
     outline: none;
 }
+
+/* footer section */
+.links {
+    display: flex;
+    background-color: #333;
+    padding: 1.2rem 12rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+}
+
+.social-link a{
+    color: white;
+    margin-right: 15px;
+}
+
+.social-link{
+    display: flex;
+    
+}
+
+.copyright{
+    padding-top:10px ;
+    font-size: 10px;
+}
