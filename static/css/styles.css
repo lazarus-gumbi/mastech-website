@@ -258,7 +258,7 @@ html {
 
 .contact-us {
     background-color: #333;
-    padding: 5rem 12rem;
+    padding: 3rem 12rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -362,4 +362,172 @@ textarea:focus, input:focus{
 .copyright{
     padding-top:10px ;
     font-size: 10px;
+}
+
+.tel a{
+    border-style: solid;
+    padding: 0.3rem 0rem;
+    border-width: 0px 0px 1px;
+    border-color: rgb(60, 132, 188);;
+    color: rgb(60, 132, 188);
+}
+
+/* products in depth page */
+
+.skypay{
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 132, 188);
+    color: #fff;
+}
+
+.prod-heading{
+    padding: 1rem 0rem;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+}
+
+.pro-det{
+
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.features{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 20px;
+}
+
+.feature h4{
+    font-size: 1.3rem;
+}
+
+.feature{
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.features-heading{
+    font-family: 'Karla', sans-serif;
+}
+
+.payment-methods{
+    font-family: 'Karla', sans-serif;
+    padding: 20px;
+}
+
+.skypoint{
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: #333;
+}
+
+.skypoint-heading{
+    padding: 1rem 0rem;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.skypoint-det  {
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.skypoint-features-heading{
+    font-size: 1.3rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.skypoint-features{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+.skyverify{
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    /* color: #333; */
+}
+
+.skyverify-heading{
+    padding: 1rem 0rem;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 132, 188);
+    
+}
+
+.skyverify-tag{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 3rem;
+    color: rgb(252, 165, 47);
+}
+
+.skyverify-det{
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+}
+
+.skysms{
+    padding: 5rem 12rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 132, 188);
+    color: #fff;
+}
+
+.skysms-heading{
+    padding: 1rem 0rem;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+}
+
+.skysms-det{
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.skysms-features-heading{
+    font-size: 1.3rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.skysms-features{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
 }
