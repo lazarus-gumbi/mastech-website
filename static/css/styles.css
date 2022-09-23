@@ -393,12 +393,13 @@ input:focus {
 }
 
 .tel a {
-    border-style: solid;
+    
     padding: 0.3rem 0rem;
     border-width: 0px 0px 1px;
     border-color: rgb(60, 132, 188);
     ;
     color: rgb(60, 132, 188);
+    margin: 1.2rem;
 }
 
 /* products in depth page */
@@ -693,8 +694,13 @@ input:focus {
 
     .tel{
         font-size: 10px;
+        
     }
+    
 
+    .phone_link{
+        margin-top: 1rem;
+    }
     .address-block{
         font-size: 10px;
     }
